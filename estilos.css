@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: dongle;
+}
+
+body{
+    text-align: center;
+    font-size: 20px;
+}
+
+img{
+    width: 320px; 
+    border-radius: 5%;  
+}
+
+.SEGUNDO {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 55px 150px;   
+}
+
+.TERCERO {
+    width: 250px;
+    height: 450px;
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 5%;
+    padding: 15px 30px;   
+}
+
+.cero {
+    text-align: center;
+    font-size: 30px;
+}
+
+.uno{
+    justify-content: space-between;
+}
+
+.icono1, .icono2, .icono3 {
+    width: 30px;
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 15%;
+    padding: 5px 13px;   
+ }
+
+ .icono1 {
+    margin-right: 32px;
+ }
+
+ .icono3 {
+    margin-left: 32px;
+ }
+
+.dos{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+
+}
+ 
+.dos::after, .dos::before{
+    content:'';
+    position:absolute;
+    width: 72px;
+    height: 1px;
+    background-color: rgb(218, 216, 216);
+    top:0.6em;
+}
+
+.dos::before{
+    left: -75px;
+}
+
+.dos::after{
+    right: -75px;
+}
+
+.tres {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: rgb(80, 79, 79);
+}
+
+.boton1{
+    color: white;
+    background-color: rgb(245, 121, 6);
+    padding: 3px 20px;  
+    border-radius: 10px; 
+    border: 0px;
+    font-size: 20px;    
+}
+
+.boton1:hover{
+    color: rgb(245, 121, 6);
+    background-color: white;
+}
+
+.texto:hover{
+    color: rgb(236, 225, 225);
+    background-color: rgb(80, 79, 79);
+    padding: 0px 5px;
+}
+
+form{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    color: rgb(169, 167, 167);
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: rgb(169, 167, 167);
+    inline-size: 228px;  
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 3px 10px; 
+
+}
+
+
+
+.boton4{
+    color: white;
+    background-color: rgb(245, 121, 6);
+    padding: 3px 62px;
+    border-radius: 5px;
+    font-size: 20px; 
+    border: 1px; 
+}
+
+.boton4:hover{
+    color:rgb(245, 121, 6);
+    background-color: white;
+}
+
+.siete {
+    color: rgb(245, 121, 6);
+    text-decoration: underline;
+    padding-top: opx;
+}
+
+.siete:hover{
+    color: rgb(80, 79, 79)
+}
+
